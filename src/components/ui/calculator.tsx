@@ -1,4 +1,4 @@
-// src/components/Calculator.tsx
+// src/components/calculator.tsx
 import React, { useState } from 'react';
 import { calculateSum } from '../api/calculate';
 
