@@ -1,28 +1,14 @@
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+// src/App.tsx
+import React from 'react';
 import '@mantine/core/styles.css';
 import { MantineProvider } from '@mantine/core';
-
 import Home from '@/screens/home';
-
 import '@/index.css';
 
-const paths = [
-    {
-        path: '/',
-        element: (
-          <Home/>
-        ),
-    },
-];
-
-const BrowserRouter = createBrowserRouter(paths);
-
-const App = () => {
-    return (
-    <MantineProvider>
-      <RouterProvider router={BrowserRouter}/>
-    </MantineProvider>
-    )
-};
+const App: React.FC = () => (
+  <MantineProvider withGlobalStyles withNormalizeCSS>
+    <Home />
+  </MantineProvider>
+);
 
 export default App;
