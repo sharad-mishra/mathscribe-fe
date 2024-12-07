@@ -1,6 +1,6 @@
-// src/components/calculator.tsx
+// src/components/ui/calculator.tsx
 import React, { useState } from 'react';
-import { calculateSum } from '../api/calculate';
+import { calculateSum } from '../../api/calculate';
 
 const Calculator: React.FC = () => {
   const [numbers, setNumbers] = useState<string>('');
