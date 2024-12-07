@@ -299,7 +299,7 @@ const Home: FC = () => {
                 <Draggable
                     key={index}
                     defaultPosition={latexPosition}
-                    onStop={(e, data) => setLatexPosition({ x: data.x, y: data.y })}
+                    onStop={(_, data) => setLatexPosition({ x: data.x, y: data.y })}
                 >
                     <div className={`absolute p-2 rounded shadow-md ${textColorClass}`}>
                         <div className="latex-content" dangerouslySetInnerHTML={{ __html: latex }} />

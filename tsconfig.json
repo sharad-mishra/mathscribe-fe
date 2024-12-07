@@ -14,7 +14,7 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
+    "noEmit": true, // Ensures the main project doesn't emit any files
     "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {

@@ -6,7 +6,7 @@ import Home from '@/screens/home';
 import '@/index.css';
 
 const App: React.FC = () => (
-  <MantineProvider withGlobalStyles withNormalizeCSS>
+  <MantineProvider>
     <Home />
   </MantineProvider>
 );

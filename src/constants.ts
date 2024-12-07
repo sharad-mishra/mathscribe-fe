@@ -1,16 +1,17 @@
+// src/constants.ts
 const SWATCHES = [
-    "#000000",  // black
-    "#ffffff",  // white
-    "#ee3333",  // red
-    "#e64980",  // pink
-    "#be4bdb",  // purple
-    "#893200",  // brown
-    "#228be6",  // blue
-    "#3333ee",  // dark blue
-    "#40c057",  // green
-    "#00aa00",  // dark green
-    "#fab005",  // yellow
-    "#fd7e14",  // orange
-];
+    "#000000",  // Black
+    "#ffffff",  // White
+    "#ee3333",  // Red
+    "#e64980",  // Pink
+    "#be4bdb",  // Purple
+    "#893200",  // Brown
+    "#228be6",  // Blue
+    "#3333ee",  // Dark Blue
+    "#40c057",  // Green
+    "#00aa00",  // Dark Green
+    "#fab005",  // Yellow
+    "#fd7e14",  // Orange
+  ];
   
-export { SWATCHES };
+  export { SWATCHES };
