@@ -6,9 +6,9 @@
 
 MathScribe is an intelligent, real-time mathematical expression solver. Built using modern web technologies, it allows users to draw equations on a digital canvas, which are then identified, interpreted, and solved instantly. The app offers an intuitive user interface with additional features like customizable brushes and board colors, ensuring a seamless and interactive experience for students, professionals, and educators.
 
-🌐 [Live Demo: MathScribe Frontend](mathscribe-fe.vercel.com)
+🌐 [Live Demo: MathScribe Frontend](https://mathscribe-fe.vercel.app/)
 
-🔗 [Backend Repository: MathScribe Backend](github.com/sharad-mishra/mathscribe-be)
+🔗 [Backend Repository: MathScribe Backend](https://github.com/sharad-mishra/mathscribe-be)
 
 ## ✨ Key Features
 
@@ -53,7 +53,7 @@ calc-fe/
 
 ### Backend:
 - **FastAPI**: Python framework used for backend services.
-- [Find the backend repo here: MathScribe Backend](link-to-backend-repo)
+- [Find the backend repo here: MathScribe Backend](https://github.com/sharad-mishra/mathscribe-be)
 
 ### API Integration:
 - **Google Gemini API**: For processing and solving handwritten equations.
@@ -125,6 +125,13 @@ Contributions are what make the open-source community such a fantastic place to 
 4. Push to the branch (`git push origin feature/AmazingFeature`).
 5. Open a Pull Request.
 
+## 📧 Contact
+
+For questions or inquiries, feel free to reach out:
+
+**Sharad Mishra**
+- Email: sharad.mishra@example.com
+- LinkedIn: [Sharad Mishra](linkedin-profile-link)
 
 ## 🎉 Acknowledgements
 
