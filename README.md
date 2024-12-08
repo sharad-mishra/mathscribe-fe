@@ -6,9 +6,9 @@
 
 MathScribe is an intelligent, real-time mathematical expression solver. Built using modern web technologies, it allows users to draw equations on a digital canvas, which are then identified, interpreted, and solved instantly. The app offers an intuitive user interface with additional features like customizable brushes and board colors, ensuring a seamless and interactive experience for students, professionals, and educators.
 
-🌐 [Live Demo: MathScribe Frontend](link-to-live-demo)
+🌐 [Live Demo: MathScribe Frontend](mathscribe-fe.vercel.com)
 
-🔗 [Backend Repository: MathScribe Backend](link-to-backend-repo)
+🔗 [Backend Repository: MathScribe Backend](github.com/sharad-mishra/mathscribe-be)
 
 ## ✨ Key Features
 
