@@ -1,28 +1,23 @@
-# **MathScribe Frontend**
+# MathScribe Frontend
 
-_The Smart Mathematical Expression Solver_
+## The Smart Mathematical Expression Solver
 
----
+🚀 **About the Project**
 
-## 🚀 **About the Project**
+MathScribe is an intelligent, real-time mathematical expression solver. Built using modern web technologies, it allows users to draw equations on a digital canvas, which are then identified, interpreted, and solved instantly. The app offers an intuitive user interface with additional features like customizable brushes and board colors, ensuring a seamless and interactive experience for students, professionals, and educators.
 
-MathScribe is an intelligent, real-time **mathematical expression solver**. Built using modern web technologies, it allows users to draw equations on a digital canvas, which are then identified, interpreted, and solved instantly. The app offers an intuitive user interface with additional features like customizable brushes and board colors, ensuring a seamless and interactive experience for students, professionals, and educators.
+🌐 [Live Demo: MathScribe Frontend](link-to-live-demo)
 
-🌐 **Live Demo**: [MathScribe Frontend](https://mathscribe-fe.vercel.com)  
-🔗 **Backend Repository**: [MathScribe Backend](https://github.com/sharad-mishra/mathscribe-be)
+🔗 [Backend Repository: MathScribe Backend](link-to-backend-repo)
 
----
+## ✨ Key Features
 
-## ✨ **Key Features**
-
-- **Real-time Math Solver**: Draw mathematical expressions, and MathScribe processes them instantly.  
-- **Customizable Tools**: Change brush colors and board themes for a personalized experience.  
-- **Responsive Design**: Fully functional across devices (desktop, tablet, mobile).  
+- **Real-time Math Solver**: Draw mathematical expressions, and MathScribe processes them instantly.
+- **Customizable Tools**: Change brush colors and board themes for a personalized experience.
+- **Responsive Design**: Fully functional across devices (desktop, tablet, mobile).
 - **Gemini API Integration**: Utilizes cutting-edge AI technology for accurate equation recognition and solving.
 
----
-
-## 📂 **Project Structure**
+## 📂 Project Structure
 
 ```bash
 calc-fe/
@@ -46,32 +41,93 @@ calc-fe/
 ├── package.json                # Dependencies and project scripts
 ├── tailwind.config.js          # Tailwind CSS configuration
 └── vite.config.ts              # Vite bundler configuration
-
+```
 
 ## 🛠️ Technologies Used
 
 ### Frontend:
-- **React (TypeScript)**: Component-based architecture for building the UI.  
-- **Vite**: Lightning-fast development environment.  
-- **Tailwind CSS**: Modern utility-first CSS framework.  
+- **React (TypeScript)**: Component-based architecture for building the UI.
+- **Vite**: Lightning-fast development environment.
+- **Tailwind CSS**: Modern utility-first CSS framework.
 - **Axios**: For API communication with the backend.
 
 ### Backend:
-- **FastAPI**: Python framework used for backend services.  
-  > Find the backend repo here: [MathScribe Backend](https://github.com/sharad-mishra/mathscribe-be)
+- **FastAPI**: Python framework used for backend services.
+- [Find the backend repo here: MathScribe Backend](link-to-backend-repo)
 
 ### API Integration:
 - **Google Gemini API**: For processing and solving handwritten equations.
 
----
-
 ## 🖥️ Getting Started
 
-### **Prerequisites:**
-Ensure you have the following installed:
-- **Node.js (v16+)**  
-- **Yarn or npm**
+### Prerequisites:
+- Node.js (v16+)
+- Yarn or npm
 
-### **Installation:**
+### Installation:
 
-1. **Clone the reposi
+1. Clone the repository:
+```bash
+git clone https://github.com/sharad-mishra/mathscribe-fe.git
+cd mathscribe-fe
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up the `.env` file: Create a `.env` file in the root directory and configure the following:
+```javascript
+VITE_API_URL=<Your Backend API URL>
+```
+
+4. Run the development server:
+```bash
+npm run dev
+```
+
+5. Open your browser and navigate to http://localhost:3000.
+
+## 🖌️ Customization
+
+### Brush and Board Colors:
+Navigate to the drawing board and use the UI options to switch between various brush and board themes.
+
+### Math Expression Solver:
+Draw any mathematical expression directly on the board. The backend processes the drawing using the Gemini API and returns the result in real-time.
+
+## 🚀 Deployment
+
+The project is already deployed via Vercel.
+
+For deployment:
+
+1. Install the Vercel CLI:
+```bash
+npm install -g vercel
+```
+
+2. Deploy the project:
+```bash
+vercel
+```
+
+Follow the CLI prompts to complete the deployment.
+
+## 🤝 Contributing
+
+Contributions are what make the open-source community such a fantastic place to learn, inspire, and create. Any contributions you make are greatly appreciated!
+
+1. Fork the project.
+2. Create a branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+
+## 🎉 Acknowledgements
+
+- Google Gemini API for their advanced math-recognition capabilities.
+- Vercel for seamless deployment.
+- All contributors to this project! 💙
